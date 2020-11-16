@@ -1,0 +1,30 @@
+
+<h2 class="searchPlace">Want Music? Search Here:</h2>
+<form action="" class="form-group" class="search">
+  <input type="text"
+         class="form-control"
+         name="search"
+         [(ngModel)]="search"
+         (keyup) = "searchMusic()"
+         placeholder="Search Music">
+</form>
+
+<div *ngIf="result" class="containerCards">
+<!-- <div *ngFor="let r of result"> -->
+  <div class="row card-group">
+    <div class="col-3 p-1" *ngFor="let r of result">
+      <div class="card-data">
+      <div class="card card-body">
+        <h4> <b>{{ r.name }} </b>
+        <!-- <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button> -->
+        <p>Popularity: <b class="rate">{{r.popularity}}</b></p>
+        <!-- <pre>Rate: <b>{{newNumber}}</b></pre> -->
+        </h4>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+</div>

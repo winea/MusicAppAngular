@@ -1,0 +1,28 @@
+
+<mat-toolbar class="navbar navbar-expand-lg">
+  <mat-icon class="icon"><img src="../../assets/img/icon-music.png" alt="logo" width="60px"></mat-icon>
+  <h1 class="siteName">Music App</h1>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+    <span class="example-spacer"></span>
+
+    <div class="example-button-container">
+      <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+        <mat-icon>home</mat-icon>
+      </button>
+    </div>
+
+    <button mat-button (click)="googleUrl()" class="navButton">
+      <img src="../../assets/img/google-play.png" alt="google_play" width="120px">
+    </button>
+    <button mat-button (click)="appleUrl()" class="navButton">
+      <img src="../../assets/img/apple-store.png" alt="apple store" width="120px">
+    </button>
+  </div>
+</mat-toolbar>
+

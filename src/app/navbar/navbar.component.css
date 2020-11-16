@@ -1,0 +1,28 @@
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.search-spacer {
+  flex: 0.1 0.5 auto;
+}
+
+.icon {
+  margin-bottom: 3rem;
+}
+
+.siteName {
+  margin-left: 5rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+}
+.navbar {
+  background: linear-gradient(90deg, rgba(168,39,255,1) 0%, rgba(64,228,174,1) 50%, rgba(221,209,34,1) 100%);
+  height:6rem;
+}
+
+@media screen and (max-width: 400px) {
+  .icon {
+    display: none;
+  }
+}

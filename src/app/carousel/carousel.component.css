@@ -1,0 +1,10 @@
+.imageContainer {
+  width: 70%;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.imageSlide {
+  width: 40rem;
+  margin-top: 3rem;
+}

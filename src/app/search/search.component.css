@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=Roboto+Slab:wght@700&display=swap');
+
+.search {
+  margin-top: 0.5rem;
+}
+
+.searchPlace {
+  color: rgb(235, 247, 247);
+  font-family: 'Roboto Slab', serif;
+}
+
+.card {
+  height: 100px;
+  line-height: 100px;
+  background-color: rgb(9, 31, 77);
+  border: 3px groove rgb(223, 222, 221);
+  margin: 10px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Roboto Slab', serif;
+}
+
+.rate {
+  color: yellow;
+}

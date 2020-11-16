@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,400;1,700&family=Roboto+Slab:wght@700&display=swap');
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.footer {
+  background: linear-gradient(90deg, rgba(168,39,255,1) 0%, rgba(64,228,174,1) 50%, rgba(221,209,34,1) 100%);
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+.space {
+  margin-top: 5rem;
+}
+
+ /* Tablet*/
+ @media screen and (max-width: 768px) {
+  /* Here are some changes*/
+}
+
+/* Mobile */
+@media screen and (max-width: 320px) {
+      /* Here are some changes*/
+}
