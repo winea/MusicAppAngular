@@ -1,0 +1,36 @@
+<!-- PC -->
+<div class="displayPC">
+<h2 class="title">Categories: </h2>
+<div *ngIf="category" class="row card-group">
+  <mat-card class="example-card col-3 p-1" *ngFor="let top of category">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ top.name }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content *ngFor="let y of top.icons">
+      <img mat-card-image [src]="y.url" alt="icons" class="imgIcon img-fluid">
+    </mat-card-content>
+  </mat-card>
+</div>
+</div>
+
+
+<!-- MOBILE e Ipad -->
+<div class='hidden'>
+  <h2 class="title">Categories: </h2>
+  <div *ngIf="category">
+    <div class="row card-group" *ngFor="let top of category">
+      <mat-card class="example-card col-12 p-1">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{ top.name }}</mat-card-title>
+        </mat-card-header>
+        <!-- <mat-card-content *ngFor="let y of top.icons">
+          <img mat-card-image [src]="y.url" alt="icons" class="imgIcon">
+        </mat-card-content> -->
+      </mat-card>
+    </div>
+  </div>
+  </div>
+
+
