@@ -1,27 +1,72 @@
-# MusicApp
+# Music Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+This project is a music website with Spotify's Web API.
 
-## Development server
+## Generate Application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### npm install -g @angular/cli - Install the app generator CLI tool.
 
-## Code scaffolding
+#### ng new musicApp --prefix=play - Generate an application, with custom prefix for selector.
+choose route and css
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### cd musicApp - Change directory to the app.
 
-## Build
+#### ng serve -open - Start the compiler and open Chrome.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+### Angular Material
+https://material.angular.io/
+#### ng add @angular/material
+```
+? Choose a prebuilt theme name, or "custom" for a custom theme: Indigo/Pink        [ Preview: https://material.angular.io?theme=indigo-pink ]
+? Set up global Angular Material typography styles? Yes 
+? Set up browser animations for Angular Material? Yes
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Create component
+#### ng g c home 
 
-## Running end-to-end tests
+### Add Bootstrap
+#### ng add @ng-bootstrap/ng-bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Create service
+#### ng g s homeServices
 
-## Further help
+### Token
+The easist way to generate the Token is this url (but remember the token expires frequentily):
+https://developer.spotify.com/console/get-search-item/
+press button -> get token
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The new token must be put here, after string Bearer:
+```
+private headers: HttpHeaders = new HttpHeaders({
+    Authorization:
+    ' Bearer BQCUi4ucgzVT8lCEUBWPOWKDCqCZMerhstD2AUm4oBrDEtXfvUKlgPs6Q6-jterqQnU9vhfy6psN9SpSM6GHS_8GXUfDhsv3dOXCOp-0tha3y6qfGnqzzJLID-mm8n27OovUPpfkMS1SVXTrKXb4ToaDQPgtm2V35gR-tjwkH2TEEWafb-qEfKX8z8SVoZtNCE4hu2zvlwjUU1YA4nfwr0YEjhzBIZGiINqvxgi27tQymlpYKPbIfwZ564E7znuWutZkayefbKQfU43eRDeE6mDRyFXRxBozOrY'
+  });
+
+```
+
+### Where I learn to Debbug with Visual Studio Code
+#### https://github.com/branflake2267/debugging-angular
+
+## Screenshots:
+
+### Navbar and Carousel
+
+![webNav](https://github.com/winea/MusicAppAngular/src/assets/img/website.png);
+
+### Search (with api integration):
+
+![search](https://github.com/winea/MusicAppAngular/src/assets/img/website2.png);
+
+### Search active:
+
+![searchActive](https://github.com/winea/MusicAppAngular/src/assets/img/website4.png);
+
+### Cards and Footer: 
+
+![cards](https://github.com/winea/MusicAppAngular/src/assets/img/website3.png);
+
+### Ipad responsive:
+
+![ipad](https://github.com/winea/MusicAppAngular/src/assets/img/ipad.png);
