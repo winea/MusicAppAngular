@@ -53,20 +53,20 @@ private headers: HttpHeaders = new HttpHeaders({
 
 ### Navbar and Carousel
 
-![webNav](https://github.com/winea/MusicAppAngular/src/assets/img/website.png);
+![webNav](https://github.com/winea/MusicAppAngular/blob/main/src/assets/img/website.png?raw=true);
 
 ### Search (with api integration):
 
-![search](https://github.com/winea/MusicAppAngular/src/assets/img/website2.png);
+![search](https://github.com/winea/MusicAppAngular/blob/main/src/assets/img/website2.png?raw=true);
 
 ### Search active:
 
-![searchActive](https://github.com/winea/MusicAppAngular/src/assets/img/website4.png);
+![searchActive](https://github.com/winea/MusicAppAngular/blob/main/src/assets/img/website4.png?raw=true);
 
 ### Cards and Footer: 
 
-![cards](https://github.com/winea/MusicAppAngular/src/assets/img/website3.png);
+![cards](https://github.com/winea/MusicAppAngular/blob/main/src/assets/img/website3.png?raw=true);
 
 ### Ipad responsive:
 
-![ipad](https://github.com/winea/MusicAppAngular/src/assets/img/ipad.png);
+![ipad](https://github.com/winea/MusicAppAngular/blob/main/src/assets/img/ipad.png?raw=true);
