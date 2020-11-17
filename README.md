@@ -1,6 +1,6 @@
 # Music Website
 
-This project is a Music Website with Spotify's Web API.
+This project is a Single Page Application of a Music Website with Spotify's Web API.
 
 ## Generate Application
 
