@@ -30,7 +30,7 @@ https://material.angular.io/
 #### ng add @ng-bootstrap/ng-bootstrap
 
 ### Create service
-#### ng g s homeServices
+#### ng g s spotifyServices
 
 ### Token
 When the access token expires go to
