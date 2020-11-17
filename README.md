@@ -1,6 +1,6 @@
 # Music Website
 
-This project is a music website with Spotify's Web API.
+This project is a Music Website with Spotify's Web API.
 
 ## Generate Application
 
@@ -33,11 +33,11 @@ https://material.angular.io/
 #### ng g s homeServices
 
 ### Token
-The easist way to generate the Token is this url (but remember the token expires frequentily):
-https://developer.spotify.com/console/get-search-item/
+When the access token expires go to
+#### https://developer.spotify.com/console/get-search-item/
 press button -> get token
 
-The new token must be put here, after string Bearer:
+The new token must be put here, after the string Bearer:
 ```
 private headers: HttpHeaders = new HttpHeaders({
     Authorization:
